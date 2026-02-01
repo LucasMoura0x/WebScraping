@@ -5,6 +5,7 @@ Web Scraper & Excel Generator
 Este sistema automatiza a busca de produtos na Amazon Brasil, extrai informações críticas e exporta tudo para uma planilha Excel formatada.
 
 Tecnologias e Arquitetura
+
 O sistema segue o padrão MVC (Model-View-Controller) simplificado:
 
 Model (Produtos.java): Responsável pelo armazenamento e pela inteligência de extração de dados via RegEx e manipulação de BigDecimal.
@@ -12,6 +13,7 @@ Model (Produtos.java): Responsável pelo armazenamento e pela inteligência de e
 Controller (WebScraping.java): Gerencia o ciclo de vida do Selenium (coleta) e a escrita de dados via Apache POI (geração do Excel).
 
 Resolução de Problemas (Troubleshooting)
+
 Se o sistema não se comportar como esperado, verifique os pontos abaixo:
 
 1. O arquivo Excel não é gerado ou a mensagem não aparece
@@ -31,6 +33,7 @@ Lógica de Strings: Verifique se o formato do preço no site mudou (ex: de "R$ 1
 
 
 Sugestões de Melhorias Futuras
+
 Paginação: Implementar um loop para navegar pelas páginas 2, 3, 4 da pesquisa.
 
 Banco de Dados: Em vez de apenas Excel, salvar os dados em um banco SQL para histórico de preços.
