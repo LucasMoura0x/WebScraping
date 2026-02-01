@@ -1,6 +1,7 @@
 # WebScraping
 
 Web Scraper & Excel Generator
+
 Este sistema automatiza a busca de produtos na Amazon Brasil, extrai informações críticas e exporta tudo para uma planilha Excel formatada.
 
 Tecnologias e Arquitetura
